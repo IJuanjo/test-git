@@ -1,3 +1,3 @@
-function init() {
-    return "function init.."
+function init(text:string) {
+    return `function init.. ${text}`
 }

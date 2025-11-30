@@ -1,3 +1,3 @@
-function init(text:string) {
-    return `function init.. ${text}`
+export function init(text: string, somethingMore: string) {
+    return `function init.. ${text} ${somethingMore}`
 }
